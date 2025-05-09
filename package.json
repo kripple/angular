@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "postbuild": "cp dist/browser/* docs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
